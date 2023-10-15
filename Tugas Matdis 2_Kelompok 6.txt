@@ -1,0 +1,180 @@
+# Assignment 02
+
+**Group members**
+- Desnita Dwi Putri (10231030) (Problem 1)
+- Muhammad Novri Aziztra (10231066) (Problem 2)
+- Amalia Tiara Rezfani (10231012) (Problem 3)
+- Risky Nur Fatimah Bahar (10231084) (Problem 4)
+- Jonathan Joseph Yudita Tampubolon (10231048) (Problem 5)
+
+## Problem 1
+Tentukan pernyataan berikut apakah bernilai benar atau salah, dan jelaskan 
+mengapa bernilai benar atau bernilai salah
+1. $`\{\,\} \in \{ \{\,\} \}`$   
+2. $`\{\{\,\}\} \in \{ \{\,\}\}`$
+3. $`\{\{\,\}\} \subset \{ \{\,\}, \{ \{\,\} \} \}`$
+4. $`\{\{ \{\,\}\}\} \subset \{\{\{\,\}\}, \{\{\,\}\}\}`$
+5. $`\{\,\} \in \{\{\,\}, \{\{\,\}\}\}`$
+6. $`\{\{\,\}\} \in \{\{\{\,\}\}\}`$
+7. $`\{\{\{\,\}\}\} \subset \{\{\,\}, \{\{\,\}\}\}`$
+
+### Answer
+1. $\{\,\} \in \{ \{\,\} \}$
+
+    Benar. Himpunan kosong {} adalah elemen dari himpunan yang berisi himpunan kosong {{}}. Dengan kata lain, himpunan kosong terdapat di dalam himpunan {{}}.
+
+2. $\{\{\,\}\} \in \{ \{\,\}\}$
+
+    Salah. Pernyataan ini mengatakan bahwa himpunan yang berisi himpunan kosong {{}} adalah elemen dari himpunan yang berisi himpunan kosong {{}}. Ini tidak benar karena keduanya adalah himpunan yang sama dan bukan elemen satu sama lain.
+
+3. $\{\{\,\}\} \subset \{ \{\,\}, \{ \{\,\} \} \}$
+   
+    Benar. Himpunan yang berisi himpunan kosong {{}} adalah salah satu sub himpunan dari himpunan yang memiliki elemen himpunan kosong {} dan himpunan yang berisi himpunan kosong {{}}.
+
+4. $\{\{ \{\,\}\}\} \subset \{\{\{\,\}\}, \{\{\,\}\}\}$
+
+    Benar. Himpunan {{ { } }} (sebuah himpunan yang berisi himpunan yang berisi himpunan kosong) merupakan salah satu elemen dari himpunan {{{ }}, {{ }}}. Oleh karena itu, {{ { } }} adalah sub himpunan dari {{{ }}, {{ }}}. 
+
+5. $\{\,\} \in \{\{\,\}, \{\{\,\}\}\}$
+
+    Benar. Himpunan kosong {} adalah salah satu elemen dari himpunan yang berisi dua elemen: himpunan kosong {} dan himpunan yang berisi himpunan kosong {{}}.
+
+6. $\{\{\,\}\} \in \{\{\{\,\}\}\}$
+
+    Salah. Himpunan yang berisi himpunan kosong {{}} bukanlah elemen dari himpunan yang berisi himpunan yang berisi himpunan kosong {{{}}}.
+
+7. $\{\{\{\,\}\}\} \subset \{\{\,\}, \{\{\,\}\}\}$
+
+    Salah. Himpunan yang berisi himpunan yang berisi himpunan kosong {{{}}} bukanlah sub himpunan dari himpunan yang berisi dua elemen: himpunan kosong {} dan himpunan yang berisi himpunan kosong {{}}.
+
+## Problem 2
+Diberikan dua buah himpunan $A$ dan $B$, operasi **selisih simetrik**
+yang dinotasikan $A \oplus B$ adalah himpunan yang memuat elemen-elemen
+yang berada di $A$ atau di $B$ namun yang tidak berada bersamaan di 
+$A$ dan $B$.
+1. Carilah selisih simetrik dari dua himpunan berikut: $\{1, 3, 5\}$
+   dan $\{1, 2, 3\}$
+2. Carilah selisih simetrik dari himpunan mahasiswa SI yang mengambil 
+   kelas Matematika diskrit dan himpunan mahasiswa SI yang mengambil 
+   kelas Kalkulus 1
+3. Gambarkan diagram Venn untuk operasi selisih simetrik dari dua 
+   himpunan $A$ dan $B$.
+
+### Answer
+1. Carilah selisih simetrik dari dua himpunan berikut: $\{1, 3, 5\}$
+   dan $\{1, 2, 3\}$
+
+   A = $\{1, 3, 5\}$
+
+   B = $\{1, 2, 3\}$
+
+   Jawaban : 
+
+   A $\oplus$ B = ( A $\cup$ B) - ( A  $\cap$ B )
+   
+   A $\oplus$ B = {1, 2, 3, 5} - {1, 3}
+
+   A $\oplus$ B = {2, 5}
+
+ 2. Carilah selisih simetrik dari himpunan mahasiswa SI yang mengambil 
+    kelas Matematika diskrit dan himpunan mahasiswa SI yang mengambil 
+    kelas Kalkulus 1
+
+    A = {Mahasiswa yang mengambil Matematika Diskrit}
+    
+    B = {Mahasiswa yang mengambil Kalkulus 1}
+
+    A $\oplus$ B = {Mahasiwa yang hanya mengambil Matematika Diskrit dan Mahasiwa yang hanya mengambil Kalkulus 1}
+
+3. Gambarkan diagram Venn untuk operasi selisih simetrik dari dua 
+   himpunan $A$ dan $B$.
+ 
+    https://drive.google.com/file/d/1fiERe6MrfWJxcmHqeiuIJTeIJy27eV_P/view
+    
+
+
+## Problem 3
+Diberikan empat buah fungsi yang memetakan dari himpunan mahasiswa-mahasiswi
+yang mengambil kelas Matematika Diskrit ke:
+1. nomor telepon
+2. nomor induk mahasiswa
+3. nilai akhir kelas Matematika Diskrit
+4. alamat rumah
+
+Untuk setiap fungsi di atas, batasan apakah yang harus diterapkan supaya 
+masing-masing ke-empat fungsi di atas adalah fungsi injektif (fungsi 
+satu-satu)?
+### Answer
+Fungsi injektif adalah fungsi dengan tiap elemen kodomain tidak mempunyai relasi lebih dari satu dengan elemen domain. Fungsi injektif disebut juga dengan "fungsi satu-satu" karena tiap elemen kodomain hanya boleh berelasi satu kali.
+
+   1. Nomor telepon
+- Batasan: Setiap mahasiswa harus memiliki nomor telepon yang unik dan tidak boleh ada dua mahasiswa dengan nomor telepon yang sama.
+Artinya, jika Anda menemukan dua mahasiswa dengan nomor telepon yang sama, itu bukan fungsi injektif.
+2. Nomor induk mahasiswa :
+- batasan: Setiap mahasiswa harus memiliki nomor telepon yang unik dan tidak boleh ada dua mahasiswa dengan nomor telepon yang sama.
+Artinya, jika Anda menemukan dua mahasiswa dengan nomor telepon yang sama, itu bukan fungsi injektif.
+3. nilai akhir kelas Matematika Diskrit:
+
+- Batasan: Setiap mahasiswa harus mendapatkan nilai yang berbeda dari mahasiswa lain.
+Ini bisa menjadi tantangan, terutama di kelas yang besar, karena biasanya ada kemungkinan beberapa mahasiswa mendapatkan nilai yang sama
+4. alamat rumah:
+
+- Batasan: Setiap mahasiswa harus memiliki alamat rumah yang unik dan berbeda.
+Terkadang, ini mungkin tidak praktis atau mungkin tidak mungkin, terutama jika ada saudara kembar yang mengambil kelas yang sama atau mahasiswa yang tinggal bersama dalam satu rumah/kos.
+
+
+ Agar kebutuhan sebuah fungsi menjadi injektif adalah jika setiap elemen dari himpunan asalnya (setiap mahasiswa) memiliki pemetaan yang unik di himpunan tujuannya. Dengan memastikan batasan-batasan di atas, kita dapat memastikan bahwa setiap fungsi adalah injektif.
+## Problem 4
+Diberikan operator Boolean $\oplus$ yang disebut XOR operator dengan 
+tabel perhitungan berikut
+| $x$ | $y$ | $x \oplus y$ |
+|-----|-----|--------------|
+| 1   | 1   | 0            |
+| 1   | 0   | 1            |
+| 0   | 1   | 1            |
+| 0   | 0   | 0            |
+
+Tunjukkan bahwa dua identitas berikut berlaku
+1. $x \oplus y = (x + y)\overline{xy}$
+2. $x \oplus y = (x\overline{y}) + (\overline{x} y)$
+
+### Answer
+1. $x \oplus y = (x + y)\overline{xy}$
+
+    | $x$ | $y$ | $x + y$ | $xy$ | $\overline{xy}$ | $(x + y)\overline{xy}$ |
+    |----|----|----|----|----|----|
+    | 1  | 1  | 1  | 1  | 0  | 0  |
+    | 1  | 0  | 1  | 0  | 1  | 1  |
+    | 0  | 1  | 1  | 0  | 1  | 1  |
+    | 0  | 0  | 0  | 0  | 1  | 0  |
+
+2. $x \oplus y = (x\overline{y}) + (\overline{x} y)$
+   
+    | $x$ | $y$ | $\overline{x}$ | $\overline{y}$ | $x\overline{y}$ | $\overline{x}y$ |  $(x\overline{y}) + (\overline{x}y)$ |
+    |----|----|----|----|----|----|----|
+    | 1  | 1  | 0  | 0  | 0  | 0  | 0  |
+    | 1  | 0  | 0  | 1  | 1  | 0  | 1  |
+    | 0  | 1  | 1  | 0  | 0  | 1  | 1  |
+    | 0  | 0  | 1  | 1  | 0  | 0  | 0  |
+
+## Problem 5   
+Carilah cara untuk menyatakan komplement, Boolean sum, 
+dan Boolean product dengan hanya menggunakan NOR operator
+
+### Answer
+Cara untuk menyatakan komplement, Boolean sum, dan Boolean product dengan hanya menggunakan NOR operator adalah sebagai berikut.
+
+#### Komplement (NOT)
+    Untuk menyatakan komplement dari suatu nilai Boolean A menggunakan operator NOR, kita juga dapat menghubungkan A dengan dirinya sendiri melalui operator NOR. Ini akan menghasilkan keluaran yang merupakan komplement dari A. 
+    contoh : 
+    * Komplement dari A: ¬A = A NOR A
+
+#### Boolean Sum (OR)
+    Untuk menyatakan operasi OR (Boolean sum) dari dua nilai Boolean A dan B menggunakan operator NOR, Anda dapat melakukan operasi NOR pada komplement dari A dan komplement dari B. Ini akan menghasilkan hasil yang sama dengan A OR B.
+    Contoh:
+    * A OR B = (A NOR A) NOR (B NOR B)
+
+#### Boolean Product (AND)
+    Untuk menyatakan operasi AND (Boolean product) dari dua nilai Boolean A dan B menggunakan operator NOR, Anda dapat menghubungkan komplement dari A dan komplement dari B menggunakan operator NOR. Kemudian, kita dapat mengkomplementasikan hasilnya. Ini akan menghasilkan hasil yang sama dengan A AND B.
+    Contoh:
+    * A AND B = ¬((A NOR A) NOR (B NOR B))
